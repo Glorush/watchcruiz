@@ -1,0 +1,908 @@
+@media all and (min-width: 1200px){
+
+}
+@media all and (min-width: 1025px){
+	.sh_navigation_tablet_list{
+		display: none;
+	}
+	.sh_coin_Q_ans_tablet{
+		display: none;
+	}
+	.tab_Letest_win{
+		display: none;
+	}
+}
+@media all and (min-width: 768px){
+	.header_menu_right > ul{
+		display: flex !important;
+	}
+}
+@media all and (min-width: 576px){
+	.mb_coins_details .user_details{
+		display: none;
+	}
+	.mb_accordion{
+		display: none;
+	}
+	#Accordion_1.collapse:not(.show) {
+		display: block;
+	}
+	.mb_letest_win{
+		display: none;
+	}
+}
+
+
+/* min and max */
+/* 1025-1414 */
+@media all and (min-width: 1025px) and (max-width: 1414px){
+	.sh_watch_btn a {
+		flex-direction: column;
+		padding: 25px 8px;
+	}
+	.sh_watch_btn a img{
+		margin-bottom: 5px;
+		margin-right: 0;
+	}
+	.sh_rsidbear_withdraw_button a:first-child{
+		flex-direction: column;
+		font-size: 14px;
+	}
+	.sh_rsidbear_withdraw_button a:first-child img{
+		margin-right: 0;
+	}
+}
+/* 1200-1366 */
+@media all and (min-width: 1200px) and (max-width: 1366px){
+	.navigation_itam ul li a {
+		padding: 18px 20px;
+	}
+	.righ_sidbear {
+		padding: 29px 20px;
+	}
+}
+/* 1265-1340 */
+@media all and (min-width: 1265px) and (max-width: 1340px){
+	.sh_right_sidber_widget_2 .coins_withdraw_btn button {
+	  font-size: 14px;
+	  padding: 6px;
+	}
+	.sh_right_sidber_widget_2 .coins_star_btn a {
+		padding: 35px 5px;
+		font-size: 12px;
+	}	
+}
+/* 1025-1264 */
+@media all and (min-width: 1025px) and (max-width: 1264px){
+	.sh_right_sidber_widget_2 .coins_star_btn a,
+	.sh_right_sidber_widget_2 .coins_withdraw_btn button{
+		flex-direction: column;
+	}
+
+	.sh_right_sidber_widget_2 .coins_star_btn a{
+		padding: 20px 8px;
+	}
+	.sh_right_sidber_widget_2 .coins_star_btn a img{
+		margin-right: 0;
+		margin-bottom: 8px;
+	}
+}
+/* 576-960 */
+@media all and (min-width: 576px) and (max-width: 960px){
+	.sh_watch_btn a {
+		flex-direction: column;
+		padding: 25px 8px;
+	}
+	.sh_watch_btn a img{
+		margin-bottom: 5px;
+		margin-right: 0;
+	}
+	.sh_rsidbear_withdraw_button a:first-child{
+		flex-direction: column;
+		font-size: 14px;
+	}
+	.sh_rsidbear_withdraw_button a:first-child img{
+		margin-right: 0;
+	}
+}
+
+
+
+/* max-width */
+@media all and (max-width:1199px){
+	.Hm_coins_details {
+		padding: 15px 0 15px 30px;
+	}
+	.navigation_itam {
+		padding: 22px 15px;
+	}
+	.navigation_itam ul li a {
+		padding: 18px 6px;
+	}
+	.righ_sidbear {
+		padding: 29px 11px;
+	}
+	.sh_promoted_site_video_status ul, .sh_pending_site_video_status ul {
+		padding: 6px 20px;
+	}
+	.sh_watch_pg_main_video {
+		border-radius: 24px;
+		padding: 18px 16px 49px 16px;
+	}
+	.horse_buy_ticket {
+		width: 24%;
+		padding: 10px 10px;
+	}
+	.horse_table {
+		width: 55%;
+	}
+	.horse_table table > tbody > tr > th, .horse_table table > tbody > tr > td {
+		padding: 8px 8px;
+	}
+	.sh_horserace_card p:nth-child(2) {
+	  margin-top: 15px;
+	}
+	.Sh_common_card_headding h3 {
+		font-size: 26px;
+		line-height: 65px;
+	}
+	.Sh_common_card_headding {
+		height: 65px;
+		line-height: 65px;
+		border-radius: 20px 20px 0 0;
+	}
+	.wh_coin {
+		font-size: 33px;
+		line-height: 56px;
+	}
+	/* LOTTERY FLIP CUNTDOWN */
+	.flip-clock-wrapper ul {
+		width: 41px;
+		height: 70px;
+		line-height: 67px;
+	}
+	.flip-clock-wrapper ul li{
+		line-height: 70px;
+	}
+	.flip-clock-divider {
+		height: 80px;
+	}
+	.flip-clock-dot.top {
+		top: 24px;
+	}
+	.flip-clock-dot.bottom {
+		bottom: 24px;
+	}
+	.flip-clock-wrapper ul li a div div.inn {
+		font-size: 54px;
+	}
+
+}
+@media all and (max-width: 1024px){
+	.sh_tablet_row{
+		flex-direction: row-reverse;
+	}
+	.Sh_tablet_dnone{
+		display: none;
+	}
+	.sh_main_content_tablet{
+		width: 75%;
+	}
+	.sh_user_pf_tablet{
+		width: 25%;
+	}
+	.sh_cus_dnone{
+		display: none;
+	}
+	.sh_tablet_navigation{
+		display: flex;
+		justify-content: space-between;
+	}
+	.sh_navigation_tablet_list{
+		flex: 0 0 calc(50% - 8px);
+		margin-top: 20px;
+	}
+	.right_sidbear_af_bg::after {
+		background: url('../images/tab_Saly-1.png')no-repeat scroll 0 0 / cover;
+		top: 110%;
+		left: -10px;
+		width: 100%;
+		height: 50%;
+	}
+	.navigation_itam ul li a{
+		padding: 18px 25px;
+	}
+	.footer_left ul li, .footer_left p {
+		padding: 0 8px;
+	}
+	.sh_common_card_pd {
+		padding: 25px 40px;
+	}	
+/*-- :not:home desing --*/
+	/* common_navigation */
+	.sh_navgation_tab_mt0{
+		margin-top: 0;
+	}
+	.sh_navgation_tab_mb30{
+		margin-bottom: 30px;
+	}
+	.sh_w_row_padding {
+		padding: 0 0px;
+	}
+	.sh_watch_video_hedding p {
+		font-size: 14px;
+		margin-top: 25px;
+	}
+	/* MY_VIDEO */
+	.sh_promoted_site_video_status ul, .sh_pending_site_video_status ul {
+		padding: 6px 12px;
+	}
+	.sh_promoted_site_video_status ul li, .sh_pending_site_video_status ul li {
+		font-size: 13px;
+		line-height: 21px;	
+	}
+	/* WATCH  */
+	.sh_watch_pg_headding h4 {
+		font-size: 26px;
+		line-height: 44px;
+	}
+	.sh_watch_episode h4 {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.sh_watch_episode p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.sh_watch_pg_main_video {
+		padding: 18px 14px 48px 14px;
+		border-radius: 18px;
+	}
+	.sh_watch_power {
+		right: -8px;
+		bottom: -43px;
+		width: 80px;
+	}
+	.box-video {
+		border-radius: 8px;
+	}
+	/* VIDEO */
+	.tab_d_none{
+		display: none;
+	}
+	.sh_watch_video_hedding h4 {
+		font-size: 22px;
+	}
+	.wh_coin {
+		font-size: 32px;
+		line-height: 55px;
+	}
+	.Sh_common_card_headding h3 {
+		font-size: 23px;
+		line-height: 60px;
+	}
+	.Sh_common_card_headding {
+		height: 60px;
+		line-height: 60px;
+	}
+	.horse_table table > tbody > tr > th, .horse_table table > tbody > tr > td {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.horse_table table > tbody > tr > th, .horse_table table > tbody > tr > td {
+		padding: 7px 8px;
+	}
+	.horse_buy_ticket ul li,
+	.horse_buy_ticket button {
+		font-size: 13px;
+	}
+	/* lottery Coundown */
+	.flip-clock-wrapper ul {
+		width: 37px;
+		height: 63px;
+		line-height: 60px;
+	}
+	.flip-clock-wrapper ul li {
+		line-height: 66px;
+	}
+
+}
+@media all and (max-width: 767px){
+	.sh_main_content_tablet {
+		width: 68%;
+	}
+	.sh_user_pf_tablet {
+		width: 32%;
+	}
+	.sh_common_card_pd {
+		padding: 25px 15px;
+	}
+	.sh_Coins_stats_tablet ul{
+		flex-direction: column;
+		text-align: left;
+	}
+	.sh_Coins_stats_tablet ul li{
+		text-align: left;
+		width: 100%;
+	}
+	.sh_Coins_stats_tablet ul li:last-child{
+		margin-left: 0;
+	}
+	.sh_Coin_withdraw_tblet_btn a {
+		padding: 8px 14px;
+		font-size: 14px;
+		margin: 30px 0 40px;
+		text-align: center;
+	}
+	.sh_Coin_withdraw_tblet_btn a:first-child {
+		margin-right: 10px;
+	}
+	.header_menu_rigt{
+		position: relative;
+	}
+	.header_menu_right ul {
+		flex-direction: column;
+		width: 100%;
+		position: absolute;
+		top: 68px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		background: #f6f6f6;
+		z-index: 254;
+		padding: 20px;
+		text-align: center;
+		border-radius: 12px;
+		box-shadow: 0px 4px 36px 0px #0000003B;
+		display: none;
+		z-index: 999;
+	}
+	.header_menu_right ul li{
+		margin-bottom: 5px;
+	}
+	.header_menu_right ul li a{
+		padding: 10px;
+	}
+
+
+	.sh_tablet_navigation {
+		flex-direction: column;
+	}
+	.sh_navigation_tablet_list:last-child{
+		margin-top: 30px;
+	}
+	.sh_f_language_tablet{
+		display: none;
+	}
+	.footer_left {
+		flex-direction: column;
+	}
+	.footer_left p{
+		margin-top: 20px;
+	}
+	.footer_left ul{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.footer_left ul li:first-child{
+		width: 100%;
+	}
+	.Footer_area {
+		padding: 30px 20px;
+		background: var(--Secondary_white);
+		box-shadow: 0px -6px 14px 0px #0000003B;
+	}
+	.navigation_itam ul li a {
+		padding: 18px 40px;
+	}
+	/* MY_VIDEO */
+	.sh_watch_video_hedding h4 {
+		font-size: 21px;
+		line-height: 32px;
+	}
+	.sh_promoted_site_video_status ul li, .sh_pending_site_video_status ul li {
+		font-size: 11px;
+		line-height: 17px;
+		text-align: center;
+		padding: 0 5px;
+	}
+	.sh_promoted_site_video_status ul, .sh_pending_site_video_status ul {
+		padding: 6px 8px;
+	}
+	.sh_promoted_site_video_headding, .sh_pending_site_video_headding {
+		height: 36px;
+	}
+	.sh_promoted_site_video_headding h4, .sh_pending_site_video_headding h4 {
+		font-size: 16px;
+		line-height: 36px;
+	}
+	.sh_pormoted_site_video_bd_msg p, .sh_pending_site_video_bd_msg p {
+		font-size: 13px;
+		line-height: 21px;
+	}
+	.sh_warning_site_video_msg p {
+		font-size: 13px;
+		line-height: 21px;
+	}
+	.sh_warning_site_video_msg {
+		padding: 60px 30px;
+	}
+	/* ADD VIDEO */
+	.sh_form_order{
+		order: 1;
+	}
+	.sh_watch_pg_main_video {
+		padding: 12px 12px 45px 12px;
+	}
+	/* horse */
+	.horse_card_body {
+		flex-wrap: wrap;
+	}
+	.horse_img {
+		width: 35%;
+		order: 1;
+	}
+	.horse_table {
+		width: 100%;
+		order: 3;
+		margin-top: 20px;
+	}
+	.horse_buy_ticket {
+		width: 60%;
+		order: 2;
+	}
+	.sh_horserace_card p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.navigation_letest_winner h2 {
+		font-size: 25px;
+		line-height: 32px;
+	}
+	.sh_lottery_tickets {
+		flex-direction: column;
+	}
+	.sh_lottery_card:not(:first-child) {
+		margin-left: 0;
+		margin-top: 15px;
+	}
+	
+	.sh_purchased_tickets{
+		flex-direction: column;
+	}
+	.purchased_ticet_single_items {
+		max-width: 210px;
+		margin: 8px 0;
+	}
+
+	/* lottery countdown */
+	.flip-clock-wrapper ul {
+		height: 36px;
+		line-height: 33px;
+		font-size: 40px;	
+		margin: 5px 3px;
+		width: 18px;
+	}
+	.flip-clock-wrapper ul li a div div.inn {
+		font-size: 25px;
+	}
+	.flip-clock-wrapper ul li {
+		line-height: 34px;
+	}
+	.flip-clock-dot {
+		width: 5px;
+		height: 5px;
+	}
+	.flip-clock-dot.top {
+		top: 13px;
+	}
+	.flip-clock-divider {
+		height: 46px;
+	}
+	.flip-clock-dot.bottom {
+		bottom: 16px;
+	}
+	.flip-clock-divider {
+		width: 10px;
+		left: -3px;
+	}
+	.flip-clock-wrapper ul {
+		margin: 5px 3px;
+		width: 22px;
+	}
+	/* wheel */
+	.whell_spin_count_btn button {
+		padding: 10px 20px;
+		border-radius: 8px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.whell_spin_count_btn {
+		margin: 40px 0 25px;
+		text-align: center;
+	}
+
+}
+@media all and (max-width: 575px){
+	.sh_user_pf_tablet {
+		width: 100%;
+		order: 1;
+	}
+	.sh_main_content_tablet {
+		width: 100%;
+		order: 2;
+	}
+	.sh_user_pf_mobile {
+		display: none;
+	}
+	.main_body_area {
+		padding: 0;
+	}
+	.coins_main_statas{
+		border-radius: 0;
+	}
+	.sh_padding_lr{
+		padding: 0 22px;
+	}
+	.Footer_area{
+		margin-top: 35px;
+	}
+	.sh_padding_lr_40{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.coins_withdraw_btn {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.sh_Coin_withdraw_tblet_btn{
+		margin-top: 15px;
+		margin-bottom: 45px;
+	}
+	.sh_Coin_withdraw_tblet_btn a {
+		max-width: auto;
+		margin-left: 9px;
+	}
+	.sh_Coin_withdraw_tblet_btn a {
+		padding: 5px 25px;
+		font-size: 14px;
+		margin: 0 0 10px;
+	}
+	.coins_q_ans p {
+		font-size: 12px;
+		line-height: 18px;
+		margin-top: 12px;
+	}
+	.mb_coins_details{
+		display: flex;
+		justify-content: space-between;
+		padding: 20px ; 
+	}
+	.mb_coins_details div ul li span{
+		font-size: 14px !important;
+	}
+	.Hm_coins_details ul li span:last-child {
+		margin-left: 5px;
+	}
+	.user_details{
+		margin-left: 40px;
+	}
+	.mb_coins_details div ul li{
+		margin-bottom: 5px;
+	}
+	.mb_coins_star_btn a {
+		/* max-width: unset; */
+		padding: 8px 7px;
+		font-size: 10px;
+		max-width: 154px;
+		width: 100%;
+		margin: 0px 0 6px;
+	}
+	.mb_coins_star_btn a img{
+		width: 18px;
+		height: 18px;
+	}
+	.mb_coins_membership_btn a{
+		color: var(--Secondary_white);
+	}
+	.mb_coins_membership_btn a img{
+		margin-top: 3px;
+	}
+	.mb_coins_membership_btn a span{
+		color: #000;
+	}
+	.user_details {
+		max-width: 100px;
+		width: 100%;
+		margin: 0;
+		padding-bottom: 10px;
+	}
+	.user_img{
+		text-align: center;
+	}
+	.user_img img{
+		width: 80%;
+	}
+	.user_title h4 {
+		font-size: 13px;		
+		line-height: 16px;
+	}
+	.author_icon img {
+		width: 25px;
+		height: auto;
+	}
+	.author_icon {
+		margin-top: 4px;
+		margin-bottom: 8px;
+	}
+	.edit_account a, .user_logout a {
+		font-size: 10px;
+		line-height: 14px;
+	}
+	.user_logout {
+		margin-top: 2px;
+	}
+	.edit_account a img, .user_logout a img {
+		width: 15px;
+		height: 15px;
+		margin-right: 6px;
+	}
+	.coins_main_statas {
+		position: relative;
+	}
+
+	.coins_main_statas::after {
+		position: absolute;
+		content: "";
+		top: 100%;
+		right: 0;
+		width: 26%;
+		height: 50%;
+		background: url('../images/home/Saly-1.png')no-repeat scroll 0 0 / cover;
+	}
+	.mb_nav_title_bar{
+		position: relative;
+	}
+	.mb_accordion button {
+		position: absolute;
+		right: 12px;
+		top: 24%;
+		width: 35px;
+		height: 30px;
+		background: none;
+		border: none;
+		outline: none;
+	}
+	.mb_accordion button:focus{
+		outline: none;
+		border: none;
+	}
+	.sh_Coin_withdraw_tblet_btn a:first-child {
+		margin-right: 0;
+	}
+/*-- :not:home Page desing; --*/
+	/* common desing user profile */
+	.not_home_user_mbpr{
+		padding: 20px 44px 12px;
+	}
+	.not_home_after_dnone::after{
+		display: none;
+	}
+	.sh_mt_40{
+		margin-top: 40px;
+	}
+	.sh_padding_lr_50{
+		padding-left: 50px !important;
+		padding-right: 50px !important;
+	}
+	.sh_watch_video_hedding h4 {
+		font-size: 22px;
+	}
+	/* user profiele */
+	.mb_cus_design{
+		max-width: 100px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.user_details {
+		max-width: 230px;
+	}
+	.edit_account{
+		float: left;
+	}
+	.user_logout{
+	  float: right;
+	  margin-top: 0px;
+	}
+	.mb_backto_dashboard_btn {
+		text-align: center;
+		margin-top: 40px;
+	}
+	.mb_backto_dashboard_btn a {
+		padding: 5px 12px;
+		background: var(--Secondary_yellow);
+		text-align: center;
+		display: inline-block;
+		font-size: 11px;
+		font-weight: 500;
+		line-height: 16px;
+		border-radius: 4px;
+	}
+	.horse_buy_ticket button{
+		transition: 0.3s;
+	}
+	.mb_backto_dashboard_btn a:hover,
+	.horse_buy_ticket button:hover{
+		background: #FAC007BF;
+	}
+	/* MY_VIDEO */
+	.my_site_video_card {
+		padding: 10px 12px;
+	}
+	.sh_add_website_form {
+		margin-top: 55px;
+		margin-bottom: 30px;
+	}
+	/* WATCH */
+	.mb_sh_row{
+		justify-content: center;
+	}
+	.sh_watch_power {
+		right: -8px;
+		bottom: -36px;
+		width: 58px;
+	}
+	.sh_watch_pg_main_video {
+		padding: 8px 7px 32px 7px;
+		border-radius: 10px;
+	}
+	.sh_watch_power ul li span {
+		width: 12px;
+		height: 12px;
+	}
+	.sh_watch_power ul li a img {
+		width: 22px;
+		height: auto;
+	}
+	.my_mb_row{
+		margin: 60px 0;
+	}
+	.sh_watch_episode h4 {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.sh_watch_episode p {
+		font-size: 12px;
+		line-height: 18px;
+		margin-top: 12px;
+	}
+	.mb_sh_row {
+		margin-top: 30px;
+	}
+	.mb_d_none{
+		display: none;
+	}
+	.sh_w_row_padding:last-child{
+		margin-bottom: 40px;
+	}
+	/* horse */
+	.wh_wheel_content {
+		margin-top: 35px;
+	}
+	.Sh_common_card_headding h3 {
+		font-size: 20px;
+		line-height: 46px;
+	}
+	.wh_container_wheel {
+		border-radius: 15px;
+	}
+	.Sh_common_card_headding {
+		height: 46px;
+		line-height: 46px;
+		border-radius: 15px 15px 0 0;
+	}
+	.sh_lottary_body {
+		text-align: center;
+		padding: 35px 20px;
+	}
+	/* Lottery */
+	.sh_mb_flex_direction{
+		flex-direction: column-reverse;
+	}
+	.sh_mb_dnone{
+		display: none;
+	}
+	/* wheel */
+
+	.wh_winning_headding h2 {
+		font-size: 25px;
+		line-height: 34px;
+	}
+	.wh_coin {
+		font-size: 28px;
+		line-height: 50px;
+	}
+	/* lottery countdown */
+	.flip-clock-wrapper ul {
+		height: 36px;
+		line-height: 33px;
+		font-size: 40px;	
+		margin: 5px 3px;
+		width: 18px;
+	}
+	.flip-clock-wrapper ul li a div div.inn {
+		font-size: 25px;
+	}
+	.flip-clock-wrapper ul li {
+		line-height: 34px;
+	}
+	.flip-clock-dot {
+		width: 5px;
+		height: 5px;
+	}
+	.flip-clock-dot.top {
+		top: 13px;
+	}
+	.flip-clock-divider {
+		height: 46px;
+	}
+	.flip-clock-dot.bottom {
+		bottom: 16px;
+	}
+	.flip-clock-divider {
+		width: 10px;
+		left: -3px;
+	}
+	.flip-clock-wrapper ul{
+		margin: 5px 3px;
+		width: 18px;
+	}
+}
+@media all and (max-width: 414px){
+	.navigation_itam ul li a {
+		padding: 18px 30px;
+	}
+	.mb_coins_details{
+		padding: 15px 12px;
+	}
+	.mb_coins_details div ul li span{
+		font-size: 13px !important;
+	}
+	.user_details{
+		margin-left: 0;
+	}
+	.navigation_itam ul li a {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.navigation_itam ul li a span:first-child {
+		width: 25px;
+		margin-right: 8px;
+	}
+	.navigation_itam ul li:last-child a img {
+		width: 18px;
+	}
+	.navigation_itam ul li:first-child a img {
+		width: 22px;
+	}
+	/* MY_VIDEO */
+	.sh_promoted_site_video_status ul, .sh_pending_site_video_status ul {
+		padding: 6px 1px;
+	}
+	.sh_promoted_site_video_status ul li, .sh_pending_site_video_status ul li {
+		font-size: 10px;
+		padding: 0 3px;
+	}
+	.horse_table table > tbody > tr > th, .horse_table table > tbody > tr > td {
+		padding: 7px 3px;
+	}
+	.horse_img {
+		width: 40%;
+		order: 1;
+	}
+	.horse_buy_ticket {
+		width: 56%;
+		order: 2;
+	}
+}
